@@ -15,7 +15,7 @@ const NavBar = () => {
             </div>
             <div className="flex-none gap-2 text-white">
                 <Link className='ml-2'>Contact Us</Link>
-                <Link className='ml-2'>Cart</Link>
+                <Link to={'/cart'} className='ml-2'>Cart</Link>
                 <Link className='ml-2'>My account</Link>
 
 
